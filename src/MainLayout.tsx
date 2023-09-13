@@ -71,7 +71,7 @@ export default function MainLayout() {
         <Toolbar orientation="horizontal">
           <AboutDialogToolbarButton
             name="Galvanicium"
-            icon={<img src="/logo/icon.svg" />}
+            icon={<img src="./logo/icon.svg" />}
             body={<AboutInformation />}
           />
         </Toolbar>

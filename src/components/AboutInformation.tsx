@@ -27,7 +27,7 @@ export function AboutInformation() {
   return (
     <div css={aboutInformationCss.root}>
       <p>
-        <img src="/logo/icon.svg" width="100" />
+        <img src="./logo/icon.svg" width="100" />
       </p>
       <span css={aboutInformationCss.separator} />
       <p>
