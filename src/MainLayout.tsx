@@ -3,12 +3,15 @@ import { css } from '@emotion/react';
 import {
   IvPlotView,
   useDropFiles,
-  useLoadFileCollectionFromHash,
+  //useLoadFileCollectionFromHash,
   MeasurementsPanelAccordion,
   MeasurementInfoPanelAccordion,
   MeasurementConfigPanelAccordion,
   AboutDialogToolbarButton,
 } from 'react-science/app';
+import {
+  useLoadFileCollectionFromHash,
+} from './helpers/file-loading.js';
 import {
   getExistingMeasurementKinds,
   useAppState,
